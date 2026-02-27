@@ -1,6 +1,5 @@
-package com.apps.quantitymeasurement;
 
-import com.apps.quantitymeasurement.Length.LengthUnit;
+package com.apps.quantitymeasurement;
 
 public class QuantityMeasurementApp {
 	// Generic method to demonstrate length equality check
@@ -22,7 +21,7 @@ public class QuantityMeasurementApp {
 	   return length.convertTo(toUnit);
    }
    
-   // convert the length from one uint to other, overloaded method takes Length object directly
+   // convert the length from one unit to other, overloaded method takes Length object directly
    public static Length demonstrateLengthConversion(Length length, LengthUnit toUnit) {
 	   return length.convertTo(toUnit);
    }
